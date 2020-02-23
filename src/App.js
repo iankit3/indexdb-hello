@@ -12,12 +12,6 @@ function App() {
   const [list, setList] = useState([]);
   const [selectedId, setSelectedId] = useState(0);
 
-  // useEffect(() => {
-  //   getList().toArray((d) => {
-  //     setList(d);
-  //   })
-  // },[])
-
   useEffect(() => {
     getList().toArray((d) => {
       setList(d);
